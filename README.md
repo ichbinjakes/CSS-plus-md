@@ -7,17 +7,20 @@ markdown. The html can then be incorporated into a website with the same
 asthetics.
 
 Requirements:
+
     1. BeautifulSoup4
     2. A html file to parse
     3. A csv file that specifies the classes to add
 
 Basic operation:
+
     1. Read in CSS class data (from a spreadsheet / CSV)
     2. Read in html
     3. Parse
     4. Save html to new file (the program won't overwrite an existing file)
 
 Possible features:
+
     - TOC options?
     - Method for removing any classes in a html file so that html produced by
       Rmarkdown, for example, can then be modified.
