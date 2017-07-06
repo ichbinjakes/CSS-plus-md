@@ -1,4 +1,4 @@
-h1,title
+h1,
 h2,
 h3,
 h4,
@@ -11,7 +11,7 @@ del,
 br,
 a,
 img,
-table,table is-bordered is-striped
+table,
 thead,
 tbody,
 tr,
