@@ -3,8 +3,8 @@
 ### Add CSS framework classes to html produced from markdown
 
 The aim of this program is to add CSS classes to a html document produced from
-markdown. The html can then be incorporated into a website with the same
-asthetics.
+markdown. For example you can add `class="list-group"` from bootstrap to lists. 
+The html can then be incorporated into a website for seamless asthetics.
 
 Requirements:
 
