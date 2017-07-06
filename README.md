@@ -6,8 +6,6 @@ The aim of this program is to add CSS classes to a html document produced from
 markdown. The html can then be incorporated into a website with the same
 asthetics.
 
-NOTE: Markdown may not produce every html tag
-
 Requirements:
     1. BeautifulSoup4
     2. A html file to parse
@@ -19,12 +17,12 @@ Basic operation:
     3. Parse
     4. Save html to new file (the program won't overwrite an existing file)
 
-TODO:
-    - !! TOC styling !!
+Possible features:
+    - TOC options?
     - Method for removing any classes in a html file so that html produced by
       Rmarkdown, for example, can then be modified.
         * Rmarkdown does javascript vodoo though
-    - Add wrapping, for example, wapping each <h1> in a div
+    - Add wrapping, for example, wapping each `<h1>` in a div
     - Build methods into a class
         - Instansiate
         - Add rules from csv method
@@ -32,6 +30,3 @@ TODO:
         - (Import template)
         - Parse
         - Output file
-
-    - Add methods that can deal with nested structures
-        - e.g. adding a class to <p> only if it is inside a <li>
